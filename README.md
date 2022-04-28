@@ -1,6 +1,6 @@
 # BKHAX-UiLib
-## Discription
-This ui libs based on free and open source ui libs i forget it name but yeah free to use everyone!
+## Description
+This roblox ui libs based on free and open source ui libs i forget it name but yeah free to use everyone!
 
 [How to use](#how-to-use)
 
