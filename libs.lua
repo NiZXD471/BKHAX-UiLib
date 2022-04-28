@@ -1,4 +1,4 @@
--- This ui libs based on free and open source ui libs with a customize by me
+-- This ui libs based on free and open source ui libs with a customize by me and by good friend(no s because there only 1)
 
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
