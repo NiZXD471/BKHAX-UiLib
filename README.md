@@ -1,6 +1,6 @@
 # BKHAX-UiLib
 ## Description
-This roblox ui libs based on free and open source ui libs i forget it name but yeah free to use everyone!
+This Roblox ui library based on free and open source ui library. i forget original ui library name but yeah free to use everyone!
 
 [How to use](#how-to-use)
 
