@@ -1173,6 +1173,7 @@ function Library:NewWindow(name)
 		end
 
 		function LibraryElements:CreateButton(name, action)
+			local table_button = {}
 			local ButtonHolder = Instance.new("Frame")
 			local Button = Instance.new("TextButton")
 			local ButtonRound = Instance.new("ImageLabel")
@@ -1215,6 +1216,10 @@ function Library:NewWindow(name)
 			ButtonRound.ScaleType = Enum.ScaleType.Slice
 			ButtonRound.SliceCenter = Rect.new(100, 100, 100, 100)
 			ButtonRound.SliceScale = 0.04
+
+			function table_button:SetState(text)
+				Button.Text = text
+			end
 
 			Button.MouseButton1Down:Connect(function()
 				ripple(ButtonRound,120,120,120)
@@ -1260,6 +1265,7 @@ function Library:NewWindow(name)
 				SectionToggle.Visible = true
 				TweenService:Create(SectionToggle, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {TextTransparency = 0}):Play()
 			end)
+			return table_button
 		end
 
 		function LibraryElements:CreateTextbox(name, action)
